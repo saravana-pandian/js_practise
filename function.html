@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+	<head>
+  		<meta charset="utf-8" />
+  		<title>js</title>
+  		<script>
+        function myfun(){
+          console.log("heloo im js,");
+        }        
+        function mine(){
+          console.log("learn js now");
+        }
+        myfun();
+        mine();
+        myfun();
+        function maths(a, b) {
+          console.log(a + b);
+          console.log(a - b);
+          console.log(a * b);
+          console.log(a / b);
+        }
+        maths(5, 2);
+
+        var a = 50;
+        function fun1() {
+          b = 100;
+        }
+        function fun2() {
+          var output = "";
+          if (typeof a != "undefined") {
+          output +="a: " + a;
+          }
+          if (typeof b != "undefined") {
+          output +="b: " + b;
+          }
+          console.log(output);
+        }
+        fun1();
+        fun2();
+        var name = "saravana";
+        function f1() {
+          var name = "my name";
+          return name;
+        }
+        console.log(f1());
+        console.log(name);
+        function multi(n) {
+          
+          return n * 100;
+        }
+        console.log(multi(5));
+         function mult(n) {
+          
+          return n + 10;
+        }
+        console.log(mult(5));
+
+        function trueorfalse(isittrue) {
+          if(isittrue){
+            return "yes its true"
+          }
+          {
+            return "no its not true"
+          }
+        }
+        console.log(trueorfalse(true));
+      
+        function compare(x) {
+          if(x == 10){
+            return "equale"
+          }
+          {
+            return "no equale"
+          }
+        }
+        console.log(compare(10));
+        function comparenow(x) {
+          if(x > 10){
+            return "one digit"
+          }
+          {
+            return "two digit"
+          }
+        }
+        console.log(comparenow(55));
+
+
+        function switchi(val) {
+
+          var ans = "";
+         
+          switch(val){
+            case 1:
+              ans = "number 1";
+              break;
+            case 2:
+              ans = "number 6";
+              break;
+            case 3:
+              ans = "number 5";
+              break;
+            case 4:
+              ans = "number 4";
+              break;
+            case 5:
+              ans = "number 5";
+              break;        
+          }
+
+          return ans;
+        }
+        console.log(switchi(3));
+      
+
+        function switching(val) {
+
+          var ans = "";
+         
+          switch(val){
+            case 1:
+            case 2:
+            case 3:
+              ans = "low";
+              break;
+            case 4:
+            case 5:
+            case 6:
+              ans = "mid";
+              break;
+            case 7:
+            case 8:
+            case 9:
+              ans = "high";
+              break;
+            
+            
+          }
+
+          return ans;
+        }
+        console.log(switching(9));
+
+
+
+      </script>
+	</head>
+	<body>
+  		<h2>javascript</h2>
+	</body>
+</html>
